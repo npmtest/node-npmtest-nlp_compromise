@@ -1,1 +1,40 @@
-{     "devDependencies": {         "nlp_compromise": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-nlp_compromise",     "homepage": "https://github.com/npmtest/node-npmtest-nlp_compromise",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-nlp_compromise.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [nlp_compromise (v6.5.3)](https://github.com/nlp-compromise/nlp_compromise#readme) [![npm package](https://img.shields.io/npm/v/npmtest-nlp_compromise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nlp_compromise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nlp_compromise.svg)](https://travis-ci.org/npmtest/node-npmtest-nlp_compromise)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "nlp_compromise": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-nlp_compromise",
+    "keywords": [
+        "coverage",
+        "test",
+        "nlp_compromise"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_nlp_compromise.js",
+    "name": "npmtest-nlp_compromise",
+    "nameAlias": "npmtest_nlp_compromise",
+    "nameOriginal": "npmtest-nlp_compromise",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-nlp_compromise.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
