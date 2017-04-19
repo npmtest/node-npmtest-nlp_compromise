@@ -1,4 +1,7 @@
-# test coverage for  [nlp_compromise (v6.5.3)](https://github.com/nlp-compromise/nlp_compromise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nlp_compromise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nlp_compromise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nlp_compromise.svg)](https://travis-ci.org/npmtest/node-npmtest-nlp_compromise)
+# npmtest-nlp_compromise
+
+#### test coverage for  [nlp_compromise (v6.5.3)](https://github.com/nlp-compromise/nlp_compromise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nlp_compromise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nlp_compromise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nlp_compromise.svg)](https://travis-ci.org/npmtest/node-npmtest-nlp_compromise)
+
 #### natural language processing in the browser
 
 [![NPM](https://nodei.co/npm/nlp_compromise.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nlp_compromise)
